@@ -1,9 +1,11 @@
 [package]
-name = "myApp"
+name = "guess_animal"
 version = "0.1.0"
-authors = ["MyUser"]
+authors = ["@dpp and beach_cat"]
 edition = "2018"
 
 [dependencies]
 rocket = "0.4.0"
 rocket_contrib = "0.4.0"
+serde = "*"
+serde_derive = "*"
